@@ -15,4 +15,8 @@ export class BlockCardComponent implements OnInit {
   ngOnInit() {
   }
 
+  getData() {
+    console.log(this.myInput);
+  }
+
 }
