@@ -1,0 +1,6 @@
+<button mat-raised-button (click)="addCard()">Add Card</button>
+<button mat-raised-button (click)="clearCards()">Clear All Cards</button>
+<div class="blocksWrapper">
+  <app-block-card *ngFor="let block of blocks" [blockData]="block">
+  </app-block-card>
+</div>

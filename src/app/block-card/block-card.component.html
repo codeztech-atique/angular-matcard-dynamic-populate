@@ -1,0 +1,7 @@
+<mat-card class="card">
+  <mat-card-title>Block #{{blockData.blockNumber}}</mat-card-title>
+  <p>{{blockData.transactions | json}}</p>
+  <p>PrevBlock: {{blockData.previousBlock}}</p>
+	<p>Hash: {{blockData.blockHash}}</p>
+  
+</mat-card>
